@@ -1,6 +1,6 @@
 # Canvas Slider
 
-A small Image Slider rendered on `<canvas>` and only draggable through the mouse pointer.
+A small Image Slider rendered on `<canvas>` and only draggable through the mouse cursor.
 
 # How it works
 
@@ -14,7 +14,7 @@ The images that you'd like to show on the Slider have to be included in the docu
 
 # Build
 
-```
+```coffee
 npm install # to get all dependencies
 npm start # to run watchify to auto compile on save
 npm run build # to build the whole project

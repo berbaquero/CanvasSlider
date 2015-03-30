@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Canvas Slider</title>
+
+	<style>
+		body > img {
+			display: none; /* [1] */
+		}
+
+		#cc-slider {
+			cursor: grab;
+			display: block;
+			margin: 100px auto;
+		}
+
+		#cc-slider:active {
+			cursor: grabbing;
+		}
+
+		/* [1] Hide images */
+	</style>
+</head>
+<body>
+
+<!-- Images to show on the Slider -->
+<img src="./images/rocketOne.jpg" />
+<img src="./images/rocketTwo.png" />
+<img src="./images/rocketThree.png" />
+<img src="./images/mars.png" />
+<img src="./images/pic.jpg" />
+
+<canvas id="cc-slider"
+		width="600"
+		height="500"></canvas>
+
+<script src="dist/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+	"name": "CanvasSlider",
+	"version": "0.0.0",
+	"description": "Canvas Slider Code Challenge",
+	"main": "dist/app.js",
+	"dependencies": {
+		"babelify": "~5.0.4",
+		"browserify": "~9.0.3",
+		"watchify": "~2.6.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "watchify -t babelify ./scripts/main.js -o ./dist/app.js -v"
+	},
+	"author": "Bernardo Baquero Stand",
+	"license": "MIT"
+}
